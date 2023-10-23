@@ -1,0 +1,99 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/ibufoto"
+        android:layout_width="397dp"
+        android:layout_height="293dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:contentDescription="Clic para abrir la galería"
+        android:focusable="true"
+        android:src="@drawable/ibuprofeno" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibufoto"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="-276dp"
+        android:hint="Ibuprofeno 600 Mg"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNombre"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="141dp"
+        android:hint="10 Unidades"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_below="@+id/editTextCantidad"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-66dp"
+        android:layout_marginEnd="19dp"
+        android:hint="$ 1000 CLP"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="205dp"
+        android:text="Descripción"
+        android:textColor="#FF0000"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/editTextDescripcion"
+        android:layout_width="355dp"
+        android:layout_height="161dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="24dp"
+        android:hint="Medicamento que se usa para tratar la fiebre, la hinchazón, el dolor y el enrojecimiento al impedir que el cuerpo elabore sustancias que causan inflamación."
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/buttonEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="273dp"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/buttonGuardarCambios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="272dp"
+        android:text="Guardar Cambios" />
+
+</RelativeLayout>

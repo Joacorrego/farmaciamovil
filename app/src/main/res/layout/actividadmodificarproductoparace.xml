@@ -1,0 +1,102 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextNombreParace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Paracetamol"
+        android:textSize="32sp"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <EditText
+        android:id="@+id/editTextCantidadParace"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="278dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:text="20 Unidades"
+        android:textColor="#FF0000"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextPrecioParace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="325dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:text="$ 600 CLP"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonComprarParace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="331dp"
+        android:text="Comprar" />
+
+    <EditText
+        android:id="@+id/editTextDescripcionParace"
+        android:layout_width="355dp"
+        android:layout_height="161dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="Analgésico y antipirético, inhibidor de la síntesis de prostaglandinas periférica y central por acción sobre la ciclooxigenasa. Bloquea la generación del impulso doloroso a nivel periférico."
+        android:textSize="22sp"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/imagenparace"
+        android:layout_width="239dp"
+        android:layout_height="246dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="49dp"
+        app:srcCompat="@drawable/paracetamol"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/buttonEliminarParace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="244dp"
+        android:text="Volver" />
+
+    <Button
+        android:id="@+id/buttonGuardarCambiosParace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="244dp"
+        android:text="Guardar Cambios" />
+
+</RelativeLayout>
